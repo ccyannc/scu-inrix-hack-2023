@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Leaflet Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <style>
+    /* Set the map container size */
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="address1" value="900 North Point St F301, San Francisco, CA" placeholder="Address 1" required minlength="4" maxlength="64" size="20" />
+  <input type="text" id="address2" value="Presidio of San Francisco, San Francisco, CA" placeholder="Address 2" required minlength="4" maxlength="64" size="20" />
+  <button onclick="addPoints()"> Add Points</button>
+  <button onclick="addPolyLine()"> Add Polyline Between Points</button>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
