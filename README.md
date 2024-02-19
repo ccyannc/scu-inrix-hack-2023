@@ -2,7 +2,7 @@
 
 Project Name: High Alert
 
-Team: Yann Chan, Austin Min, Dev Pathak, 
+Team: Yann Chan, Austin Min, Dev Pathak, Helen Wang
 
 Objective: The goal of the hackathon was centered around smart moving, transportation, and mapping. Our team created a web app aiming to dynamically suggest safer routes on kids' routes to school, integrating the traffic data and routes API that INRIX provided as part of our innovation goal.
 
